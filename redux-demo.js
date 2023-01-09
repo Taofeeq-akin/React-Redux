@@ -28,5 +28,7 @@ const counterSubscriber = () => {
 store.subscribe(counterSubscriber);
 
 store.dispatch({ type: "increment" });
+store.dispatch({ type: "decrement" });
 
 // To run my code with node.js (node (the file name))
+// Note : Redux can be used in any JS project
